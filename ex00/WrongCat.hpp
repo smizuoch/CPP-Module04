@@ -3,11 +3,12 @@
 
 #include "WrongAnimal.hpp"
 
-class WrongCat : public WrongAnimal {
-public:
-    WrongCat();
-    ~WrongCat();
-    void makeSound() const;
+class WrongCat : public WrongAnimal
+{
+  public:
+	WrongCat();
+	~WrongCat();
+	void makeSound() const;
 };
 
 #endif
